@@ -1,7 +1,7 @@
 pipeline {
   agent { label 'docker' }
   environment {
-    IMAGE = '<YOUR_DOCKERHUB_USER>/hello-devops'
+    IMAGE = 'vishnuvishalgn/hello-devops'
   }
   options { timestamps() }
   stages {
